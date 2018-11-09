@@ -21,6 +21,7 @@ wstool init .
 wstool merge https://github.com/ros-industrial/keyence_experimental/raw/kinetic-devel/keyence_experimental.rosinstall
 wstool update
 cd ..
+catkin config --extend /opt/ros/<ROS_Version_Name>
 catkin build
 ```
 
